@@ -1,6 +1,6 @@
 import React from "react";
 
-function PlantCard({key, plant}) {
+function PlantCard({plant}) {
   return (
     <li className="card" data-testid="plant-item">
       <img src={plant.image} alt={plant.name} />
