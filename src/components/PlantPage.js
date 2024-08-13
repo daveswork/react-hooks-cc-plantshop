@@ -44,7 +44,7 @@ function PlantPage() {
   return (
     <main>
       <NewPlantForm newPlantForm={newPlantForm} setNewPlantForm={setNewPlantForm} addPlant={addPlant}/>
-      <Search />
+      <Search searchText={searchText} setSearchText={setSearchText}/>
       <PlantList currentPlantList={currentPlantList}/>
     </main>
   );
