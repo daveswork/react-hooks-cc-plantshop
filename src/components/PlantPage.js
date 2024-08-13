@@ -37,8 +37,6 @@ function PlantPage() {
     }).then(response => response.json())
     .then(data => console.log(data))
     setBasePlantList([...basePlantList, newPlant])
-
-    console.log(newPlant)
   }
 
   return (
